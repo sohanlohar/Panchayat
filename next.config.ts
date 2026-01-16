@@ -4,10 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isProd ? "/Panchayat" : "",
-  env: {
-    NEXT_PUBLIC_BASE_PATH: isProd ? "/Panchayat" : "",
-  },
+  basePath: "/Panchayat", // Build and Dev will both be at /Panchayat
   images: {
     unoptimized: true,
     remotePatterns: [

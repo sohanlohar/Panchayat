@@ -9,10 +9,11 @@ export default function AboutSection() {
                     {/* Image Side */}
                     <div className="w-full md:w-1/2 relative">
                         <div className="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
-                            <img
-                                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/panchayat-meet.jpg`}
+                            <Image
+                                src="/images/panchayat-meet.jpg"
                                 alt="Gram Panchayat Meeting"
-                                className="absolute inset-0 w-full h-full object-cover"
+                                fill
+                                className="object-cover"
                             />
                         </div>
                         {/* Decorative element */}
