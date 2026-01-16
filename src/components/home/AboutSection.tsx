@@ -10,7 +10,7 @@ export default function AboutSection() {
                     <div className="w-full md:w-1/2 relative">
                         <div className="aspect-video relative rounded-2xl overflow-hidden shadow-xl">
                             <Image
-                                src="https://images.unsplash.com/photo-1590486803833-1c5dc8ce2ac6?q=80&w=2670&auto=format&fit=crop"
+                                src="/images/panchayat-meet.jpg"
                                 alt="Gram Panchayat Meeting"
                                 fill
                                 className="object-cover"
